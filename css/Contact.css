@@ -1,0 +1,129 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 2rem;
+    background-color: #12192c;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1;
+    margin-bottom: 0.7rem;
+}
+
+.contact-info {
+    padding: 2.3rem 2.2rem;
+    position: relative;
+    background-color: #12192c;
+    border: rgb(90, 165, 209) 2px solid;
+}
+
+.contact-info .title {
+    color: rgb(90, 165, 209);
+}
+
+.text {
+    color: #fff;
+    margin: 1.5rem 0 2rem 0;
+}
+
+.information {
+    display: flex;
+    color: #fff;
+    margin: 0.7rem 0;
+    align-items: center;
+    font-size: 0.95rem;
+}
+
+.icon {
+    width: 28px;
+    margin-right: 0.7rem;
+    color: rgb(90, 165, 209);
+}
+
+.social-media {
+    padding: 2rem 0 0 0;
+    color: rgb(90, 165, 209);
+}
+
+.social-media p {
+    color: #fff;
+}
+
+.social-icons {
+    display: flex;
+    margin-top: 0.5rem;
+}
+
+.social-icons a {
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+    background: linear-gradient(45deg, rgb(90, 165, 209), rgb(134, 74, 231));
+    color: #fff;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 0.5rem;
+    transition: 0.3s;
+    padding-top: 0.5rem;
+}
+
+.social-icons a:hover {
+    transform: scale(1.05);
+}
+
+@media (max-width: 850px) {  
+    .text {
+        margin: 1rem 0 1.5rem 0;
+    }
+
+    .social-media {
+        padding: 1.5rem 0 0 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 1.5rem;
+    }
+
+    .social-media p {
+        font-size: 0.8rem;
+    }
+
+    .title {
+        font-size: 1.15rem;
+    }
+
+    .social-icons a {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        padding-top: 0.5rem
+    }
+
+    .icon {
+        width: 23px;
+    }
+}
+
